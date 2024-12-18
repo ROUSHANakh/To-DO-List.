@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  /><link rel="stylesheet"  href="style.css" />
+</head>
+<body>
+    <!--input and buttons-->
+<div class="app">
+    <div class="container">
+     <div id="wrapper">
+     <input type="text" placeholder="Task Input Here">
+     <button id="add-btn">Add</button>
+     </div>
+     <!--counter-->
+     <div id="tasks">
+     <P id="pending-tasks">
+     You have <span class="count-value">0</span> task(s)
+     to complete.
+     </P>
+     </div>
+    </div>
+   <!--for error valu-->
+   <P id="error">Input value cannot be empty!</P>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
